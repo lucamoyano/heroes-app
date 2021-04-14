@@ -10,7 +10,10 @@ import { Navbar } from '../components/ui/Navbar';
 export const DashboardRoute = () => {
     return (
         <>
+            {/* El Navbar no tiene acceso al history porque no es una ruta
+            No podemos usar {history} y sus props */}
             <Navbar />  
+
             {/* Rutas del dashboard si estamos logueados */}
             <div className="container mt-2">
                 <Switch>

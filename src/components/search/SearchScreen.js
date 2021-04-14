@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 import queryString from 'query-string';
 
 import { useLocation } from 'react-router';
-import { heroes } from '../../data/heroes';
 import { useForm } from '../../hooks/useForm';
 import { HeroCard } from '../heroes/HeroCard';
 import { getHeroByName } from '../../selectors/getHeroByName';
